@@ -1,2 +1,2 @@
 #!/bin/bash
-monocle-gateway --tail
+/usr/local/bin/monocle-gateway --tail
