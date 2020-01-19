@@ -37,7 +37,7 @@ RUN apk update &&      \
 # Remove the downloaded Monocle Gateway 
 # archive files
 # ---------------------------------------
-RUN wget -c https://files.monoclecam.com/monocle-gateway/linux/monocle-gateway-linux-arm64-v0.0.4.tar.gz -O monocle-gateway.tar.gz && \
+RUN wget -c https://files.monoclecam.com/monocle-gateway/linux/monocle-gateway-linux-arm64-v0.0.4.tar.gz -O /tmp/monocle/monocle-gateway.tar.gz && \
     cd /usr/local/bin/ && \
     tar xvzf /tmp/monocle/monocle-gateway.tar.gz monocle-gateway && \ 
     tar xvzf /tmp/monocle/monocle-gateway.tar.gz monocle-proxy  && \
