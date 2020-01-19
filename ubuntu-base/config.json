@@ -1,0 +1,22 @@
+{
+    "name": "Monocle Gateway",
+    "version": "0.1",
+    "slug": "monocle-gateway",
+    "description": "Monocole Gateway Add-On",
+    "auto_uart": true,
+    "url": "https://github.com/tringler/hassio-monocle-gateway",
+    "startup": "services",
+    "arch": [
+      "aarch64",
+      "amd64",
+      "armhf",
+      "armv7",
+      "i386"
+    ],
+    "boot": "auto",
+    "host_network": "true",
+    "map": [
+      "config:rw",
+      "ssl"
+    ]
+}
