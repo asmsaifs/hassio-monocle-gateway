@@ -1,6 +1,6 @@
 ARG BUILD_FROM=homeassistant/base:latest
 FROM ${BUILD_FROM}
-
+WORKDIR /root
 
 # ---------------------------------------
 # Create Monocle Gateway configuration 
@@ -39,9 +39,9 @@ RUN apk update &&      \
 # ---------------------------------------
 RUN wget -c https://files.monoclecam.com/monocle-gateway/linux/monocle-gateway-alpine-x64-$BUILD_VERSION.tar.gz -O monocle-gateway.tar.gz && \
     cd /usr/local/bin/ && \
-    tar xvzf /tmp/monocle/monocle-gateway.tar.gz monocle-gateway && \ 
-    tar xvzf /tmp/monocle/monocle-gateway.tar.gz monocle-proxy  && \
-    rm -Rf /tmp/monocle/
+    tar xvzf /root/monocle-gateway.tar.gz monocle-gateway && \ 
+    tar xvzf /root/monocle-gateway.tar.gz monocle-proxy  && \
+    rm /root/monocle-gateway.tar.gz
 
 # ---------------------------------------
 # Expose required TCP ports 
