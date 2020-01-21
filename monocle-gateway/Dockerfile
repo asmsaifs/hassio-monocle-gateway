@@ -13,20 +13,6 @@ RUN ls -s /etc/monocle /share/monocle
 
 
 # ---------------------------------------
-# Install Monocle Gateway dependencies
-# and other useful utilties
-# ---------------------------------------
-RUN apt update &&      \
-    apt install        \
-    wget               \
-    curl               \
-    libstdc++          \
-    nano               \
-    net-tools          \
-    openssl            \
-    ca-certificates
-
-# ---------------------------------------
 # Download versioned Monocle Gateway
 # build archive file
 # - - - - - - - - - - - - - - - - - - - -
