@@ -16,8 +16,8 @@ RUN ls -s /etc/monocle /share/monocle
 # Install Monocle Gateway dependencies
 # and other useful utilties
 # ---------------------------------------
-RUN apt-get update &&      \
-    apt-get instal     \
+RUN apt update &&      \
+    apt install        \
     wget               \
     curl               \
     libstdc++          \
