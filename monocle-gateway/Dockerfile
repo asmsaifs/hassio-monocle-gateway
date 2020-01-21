@@ -16,7 +16,7 @@ RUN ls -s /etc/monocle /share/monocle
 # Install Monocle Gateway dependencies
 # and other useful utilties
 # ---------------------------------------
-RUN apk update &&      \
+RUN apt-get update &&      \
     apk add --no-cache \
     wget               \
     curl               \
