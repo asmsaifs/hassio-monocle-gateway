@@ -17,7 +17,7 @@ RUN ls -s /etc/monocle /share/monocle
 # and other useful utilties
 # ---------------------------------------
 RUN apt-get update &&      \
-    apk add --no-cache \
+    apt-get instal     \
     wget               \
     curl               \
     libstdc++          \
