@@ -1,4 +1,4 @@
-ARG BUILD_FROM=homeassistant/base:latest
+ARG BUILD_FROM=homeassistant/base-ubuntu:latest
 FROM ${BUILD_FROM}
 
 
