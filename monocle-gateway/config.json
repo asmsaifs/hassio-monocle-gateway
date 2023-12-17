@@ -1,6 +1,6 @@
 {
     "name": "Monocle Gateway",
-    "version": "0.2",
+    "version": "0.3",
     "slug": "monocle-gateway",
     "description": "Monocole Gateway Add-On",
     "auto_uart": true,
@@ -23,5 +23,6 @@
     "host_network": "true",
     "map": [
       "share:rw"
-    ]
+    ],
+    "init": "false"
 }
