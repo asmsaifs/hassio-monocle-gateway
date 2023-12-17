@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bashio
 # ==============================================================================
-# SDeSalve HomeAssistant Addon: Monocle Gateway
+# HomeAssistant Addon: Monocle Gateway
 # Monocle Gateway - www.monoclecam.com
 # ==============================================================================
 

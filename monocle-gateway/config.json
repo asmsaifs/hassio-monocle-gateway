@@ -1,6 +1,6 @@
 {
     "name": "Monocle Gateway",
-    "version": "0.3",
+    "version": "0.4",
     "slug": "monocle-gateway",
     "description": "Monocole Gateway Add-On",
     "auto_uart": true,
