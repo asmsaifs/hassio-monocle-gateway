@@ -23,7 +23,7 @@ RUN ls -s /etc/monocle /share/monocle
 # Remove the downloaded Monocle Gateway 
 # archive files
 # ---------------------------------------
-RUN wget -c https://files.monoclecam.com/monocle-gateway/linux/monocle-gateway-linux-armv7-v0.0.4.tar.gz -O /tmp/monocle/monocle-gateway.tar.gz && \
+RUN wget -c https://files.monoclecam.com/monocle-gateway/linux/monocle-gateway-alpine-x64-v0.0.6.tar.gz -O /tmp/monocle/monocle-gateway.tar.gz && \
     cd /usr/local/bin/ && \
     tar xvzf /tmp/monocle/monocle-gateway.tar.gz monocle-gateway && \ 
     tar xvzf /tmp/monocle/monocle-gateway.tar.gz monocle-proxy  && \
