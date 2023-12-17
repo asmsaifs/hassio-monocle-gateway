@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/with-contenv bashio
 # Generate monocle.token
 MONOCLE_TOKEN=$(bashio::config 'monocle_token | length')
 if [ "$MONOCLE_TOKEN" -gt "0" ]; then
