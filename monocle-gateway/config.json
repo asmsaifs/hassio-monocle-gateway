@@ -4,7 +4,7 @@
     "slug": "monocle-gateway",
     "description": "Monocole Gateway Add-On",
     "auto_uart": true,
-    "url": "https://github.com/tringler/hassio-monocle-gateway",
+    "url": "https://github.com/asmsaifs/hassio-monocle-gateway",
     "startup": "services",
     "arch": [
       "aarch64",
