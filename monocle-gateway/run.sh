@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bashio
+set -e
 # ==============================================================================
 # HomeAssistant Addon: Monocle Gateway
 # Monocle Gateway - www.monoclecam.com
